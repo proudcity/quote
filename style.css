@@ -1,0 +1,16 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+ul#results>li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.card-group, .card {
+    width: 100% !important;
+}
+
+.card-group {
+    margin-bottom: 2rem;
+}

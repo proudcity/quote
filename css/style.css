@@ -1,0 +1,31 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+ul#results {
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    padding: 0 .5rem;
+}
+
+ul#results>li {
+    border-bottom: 1px solid #efefef;
+    cursor: pointer;
+    list-style: none;
+    padding: .75rem;
+}
+
+ul#results>li:hover {
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    list-style: none;
+    padding: .75rem;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get your ProudCity quote</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/assets/img/proudcity-icon-white.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="/assets/font-awesome/js/all.min.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <script src="includes/include.js"></script>
+    <script>
+      include('nav', 'nav');
+      include('footer', 'footer');
+    </script>
+    <!-- Navigation -->
+    <nav id="nav"></nav>
+    <!-- Search -->
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="jumbotron">
+          <h1 class="h1 mb-4" id="jumbotron-title">Get your ProudCity quote</h1>
+          <form class="row g-3 form-inline">
+            <script src="quote.js"></script>
+            <label class="" for="search">
+              Find your city or county:
+            </label>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control form-control-lg border-black"
+                  placeholder=""
+                  aria-label="Search"
+                  aria-describedby="button-addon2"
+                  autofocus>
+                <button
+                  class="btn bg-black text-white btn-lg"
+                  type="button"
+                  id="button-addon2">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+              <ul id="results"></ul>
+              <p class="text-muted">Questions? Can't find your city/county?
+                <a href="https://proudcity.com/contact/" target="_blank">Contact ProudCity.</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Solutions -->
+    <div class="container pt-4">
+      <h2 class="h3 mb-5">Local government:</h2>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-solid fa-desktop fs-2 mb-3"></i>
+          <p>Websites</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-solid fa-square-pen fs-2 mb-3"></i>
+          <p>Content management</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-solid fa-gavel fs-2 mb-3"></i>
+          <p>Meetings</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-regular fa-square-check fs-2 mb-3"></i>
+          <p>Forms</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-solid fa-file-lines fs-2 mb-3"></i>
+          <p>Documents</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-solid fa-credit-card fs-2 mb-3"></i>
+          <p>Payments</p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-solid fa-rocket fs-2 mb-3"></i>
+          <p>Onboarding</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-solid fa-heart fs-2 mb-3"></i>
+          <p>Support</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-solid fa-lock fs-2 mb-3"></i>
+          <p>Security</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-solid fa-check-circle fs-2 mb-3"></i>
+          <p>Accessibility</p>
+        </div>
+        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 text-left">
+          <i class="fa-regular fa-square-plus fs-2 mb-3"></i>
+          <p>More</p>
+        </div>
+      </div>
+    </div>
+    <footer id="footer"></footer>
+  </body>
+</html>
